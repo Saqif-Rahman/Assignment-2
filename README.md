@@ -9,7 +9,7 @@
   ###number - 01601108965
 
 
-  ###liveLink - https://icassignment-2.netlify.app/
+  ###liveLink - https://icassignment2.netlify.app/
 
 
 
