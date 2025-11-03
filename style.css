@@ -1268,17 +1268,27 @@ gap: 15px 15px;
         
 
 
-    #features {
+#features {
         flex-direction: column;
         margin: 4rem auto;
         z-index: 22 !important;
     }
 
     .chips {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+     display: grid;
+
+   grid-template-columns: repeat(2, 1.1fr);
+
+   grid-template-rows: repeat(2, 1.1fr);
+
+    gap: 15px 15px;
+    text-align: center;
+
+    }
+
+    .chips p {
+        font-size: 13px;
+        white-space: nowrap;
     }
 
     card {
@@ -1298,7 +1308,7 @@ gap: 15px 15px;
     #benefit {
         flex-direction: column;
         width: 100%;
-       margin-top: 600px;
+       margin-top: 300px;
        margin-bottom: 3rem;
        gap: 50px;
     }
